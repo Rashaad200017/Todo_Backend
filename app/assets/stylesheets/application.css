@@ -13,3 +13,65 @@
  *= require_tree .
  *= require_self
  */
+html {
+    font-family: 'Shadows Into Light', cursive;
+font-family: 'Amatic SC', cursive;
+background-color:white;
+}
+
+h1 {
+    color:white;
+    font-size: 70px;
+    text-align: center
+}
+.pomodoro-estimate {
+    font-weight: bold;
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    background-color:rgb(107, 163, 255);
+    border-radius: 50px;
+    font-size: 26px;
+    padding: 0px 23px 0px 1px;
+    
+}
+#add-new-todo-button {
+    color:rgb(113, 44, 186);
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(201, 181, 221);
+    border-radius: 10px
+}
+#add-new-todo-button:hover {
+    background-color: rgb(54, 36, 145);
+    color:rgb(231, 230, 239);
+    
+}
+li:hover {
+    background-color: white
+}
+ul {
+    background-color: white;
+     text-align: center;
+    border-radius: 20px;
+    font-size: 40px;
+    color: white;
+   padding: 1px 1px 1px 0px;
+   border-left-width:;
+    
+}
+    
+#button-edit {
+    background-color: red
+}
+div {
+    background-color: white;
+    border-radius: 10px;
+}
+li {
+    color: rgb(211, 228, 255);
+    
+    
+}
+body {
+    background-image: url(http://www.wallpapers4u.org/wp-content/uploads/glare_background_blur_dark_63553_1920x1080.jpg

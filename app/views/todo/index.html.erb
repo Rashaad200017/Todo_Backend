@@ -1,1 +1,51 @@
-<h1>Hello People</h1>
+ <h1>
+
+            <img class="company logo" src="https://public.3.basecamp.com/p/iahgNshn1oKq98sWGf1q89Vo/uploads/511042491/download/CodeNow%20Logo.png" width="400"></img><br>Workshop Todo List
+
+        </h1>
+
+        <ul>   
+
+            <li id="white"><a href="show.html"><input type="checkbox">Make the curriculum<span class= "pomodoro-estimate"> 4 pomodoros</span></a></li>
+
+            <br>
+
+            <li id="white"><a href="show.html"><input type="checkbox">Buy workshop supplies<span class= "pomodoro-estimate"> 3 pomodoros</span></a></li>
+
+            <br>
+
+            <li id="white"><a href="show.html"><input type="checkbox">Meet with the volunteer trainers<span class= "pomodoro-estimate"> 2 pomodoros</span></a></li>
+
+            <br>
+
+            <li id="white"><a href="show.html"><input type="checkbox">Order food for Saturday and Sunday<span class= "pomodoro-estimate"> 1 pomodoro</span></a></li>
+
+            <br>
+
+            <li id="white"><a href="show.html"><input type="checkbox">Check pre-work assignments<span class= "pomodoro-estimate"> 2 pomodoros</span></a></li>
+
+            <br>
+
+            <li id="white"><a href="show.html"><input type="checkbox">Send workshop location to all the students<span class= "pomodoro-estimate"> 1 pomodoro</span></a></li>
+
+            <br>
+
+            <li id="white"><a href="show.html"><input type="checkbox">Have a great workshop<span class= "pomodoro-estimate"> 0 pomodoros</span></a></li>
+
+        </ul>
+
+        <input type="text" name="name" placeholder="Todo">
+
+        <input type="number" placeholder= "Estimated Pomodoros">
+
+        <input id="add-new-todo-button" type="submit" value="Add Task" name="name">
+
+        <script>
+            $(document).ready(function(){
+            
+    //Strike through todo when its checkbox is clicked
+    $("ul").on("click", "input[type=checkbox]", function(){
+      $(this).closest("li").toggleClass("completed-todo")  
+    })
+  })
+        </script>
