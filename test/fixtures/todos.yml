@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  derscription: MyString
+  pomodoro_estimate: 
+  complete: false
+
+two:
+  derscription: MyString
+  pomodoro_estimate: 
+  complete: false
