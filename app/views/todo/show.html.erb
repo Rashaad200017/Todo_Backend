@@ -3,8 +3,8 @@
  <h3>Todo#<%=params[:id]%></h3>
         <p><input type="checkbox"><%=@todo.derscription%><br><%=@todo.pomodoro_estimate%> Pomodoros</p>
         
-        <a id="button-edit" href="#">Edit</a>
-        <a href="#">Delete</a><br>
+        <a id="button-edit" href="/todo/edit/<%= @todo.id %>" class="button edit-todo-button">Edit</a>
+        <a href="/todo/destroy/<%= @todo.id %>">Delete</a><br>
         <a href="../index.html">Go back...</a>
         </div>
         
